@@ -1,29 +1,53 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>X-ray Pulsar Catalogue</title>
-</head>
-<body>
-    <h1>X-ray Pulsar Catalogue</h1>
+<table border="1" cellpadding="6">
+    <tr>
+        <th>Pulsar Name</th>
+        <th>Period (s)</th>
+        <th>Error (s)</th>
+    </tr>
 
-    <h2>Pulsar Table</h2>
-    <table border="1" cellpadding="6">
-        <tr>
-            <th>Pulsar Name</th>
-            <th>Period (s)</th>
-            <th>Error (s)</th>
-        </tr>
-        <tr>
-            <td>4U 1626-67</td>
-            <td><a href="graphs/4U 1626-67.png" target="_blank">7.674</a></td>
-            <td>0.001</td>
-        </tr>
-        <tr>
-            <td>Swift J02443.6+6124</td>
-            <td><a href="graphs/swift J0243.6+6124.png" target="_blank">9.795</a></td>
-            <td>0.001</td>
-        </tr>
-    </table>
-</body>
-</html>
+    <!-- Pulsar 1 -->
+    <tr>
+        <td>4U 1626-67</td>
+        <td><a href="graphs/4U 1626-67.png" target="_blank">7.674</a></td>
+        <td>0.001</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <details>
+                <summary>Show profile data</summary>
+
+                <strong>Time bins:</strong><br>
+                <code>
+0.015625 0.046875 0.078125 0.109375 0.140625 0.171875 0.203125 0.234375
+0.265625 0.296875 0.328125 0.359375 0.390625 0.421875 0.453125 0.484375
+0.515625 0.546875 0.578125 0.609375 0.640625 0.671875 0.703125 0.734375
+0.765625 0.796875 0.828125 0.859375 0.890625 0.921875 0.953125 0.984375
+                </code>
+                <br><br>
+
+                <strong>Counts:</strong><br>
+                <code>
+13599 13878 14075 13722 13267 13086 12939 13288
+13271 13197 13016 12724 12911 12713 10687 10633
+10794 10825 13193 13427 13381 14124 14859 14660
+14061 13603 13144 12847 13119 13013 13425 13557
+                </code>
+            </details>
+        </td>
+    </tr>
+
+    <!-- Pulsar 2 -->
+    <tr>
+        <td>Swift J0243.6+6124</td>
+        <td><a href="graphs/swift J0243.6+6124.png" target="_blank">9.795</a></td>
+        <td>0.001</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <details>
+                <summary>Show profile data</summary>
+                <!-- Insert Swift J0243 arrays here -->
+            </details>
+        </td>
+    </tr>
+</table>
